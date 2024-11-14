@@ -241,6 +241,30 @@ span{
     }
 }
 
+@media (min-width:1165px){
+    .leadership-wrapper{
+        padding: 0 120px;
+    }
+}
+
+@media (min-width: 1309px){
+    .leadership-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 270px;
+    }
+}
+
+@media (min-width: 1452px){
+    .leadership-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 370px;
+    }
+}
+
 
 .leadershipSection{
     display: flex;
@@ -255,7 +279,7 @@ span{
     color: white;
     font-size: 32px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 38px;
     padding: 96px 0 16px 0;
     max-width: 67%;
@@ -267,7 +291,7 @@ span{
     text-align: center;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 20px;
     letter-spacing: 0.42px;
     padding-bottom: 56px;
@@ -275,27 +299,99 @@ span{
     margin: 0 auto;
 }
 
-.leadershipCoFounderCells{
+@media (max-width:992px){
+    .LeadershipContent{
+        max-width: 100%;
+    }
+}
+
+.leadershipCells{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 48px;
 }
 
-.leaderImg{
+.leaderImg,
+.leaderImgSG,
+.leaderImgVA,
+.leaderImgVB,
+.leaderImgJP,
+.leaderImgAG,
+.leaderImgAB{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.leaderImg img{
+@media (min-width:992px){
+    .leaderImgSG{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+@media (min-width:992px){
+    .leaderImgVA{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+@media (min-width:992px){
+    .leaderImgVB{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+@media (min-width:992px){
+    .leaderImgJP{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+@media (min-width:992px){
+    .leaderImgAG{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+}
+
+@media (min-width:992px){
+    .leaderImgAB{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+}
+
+.leaderImg img,
+.leaderImgVA img,
+.leaderImgSG img,
+.leaderImgVB img,
+.leaderImgJP img,
+.leaderImgAG img,
+.leaderImgAB img{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 257px;
 }
 
-.leaderNames{
+.leaderNames,
+.leaderNamesSG,
+.leaderNamesVA,
+.leaderNamesVB,
+.leaderNamesJP,
+.leaderNamesAG,
+.leaderNamesAB{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,7 +405,55 @@ span{
     height: 30px;
 }
 
-.leaderNames img{
+@media (min-width:992px){
+    .leaderNamesSG{
+        justify-content: end;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderNamesVA{
+        justify-content: start;
+        padding-left: 50px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderNamesVB{
+        justify-content: end;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderNamesJP{
+        justify-content: start;
+        padding-left: 50px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderNamesAG{
+        justify-content: end;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderNamesAB{
+        justify-content: start;
+        padding-left: 50px;
+    }
+}
+
+.leaderNames img,
+.leaderNamesSG img,
+.leaderNamesVA img,
+.leaderNamesVB img,
+.leaderNamesJP img,
+.leaderNamesAG img,
+.leaderNamesAB img{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -320,21 +464,120 @@ span{
     padding-bottom: 2px;
 }
 
-.leaderDesignation{
+.leaderDesignation,
+.leaderDesignationSG,
+.leaderDesignationVA,
+.leaderDesignationVB,
+.leaderDesignationJP,
+.leaderDesignationAG,
+.leaderDesignationAB{
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 20px;
     letter-spacing: 0.42px;
     }
 
-.leadershipLeadsCells{
+@media (min-width:992px){
+    .leaderDesignationSG{
+        justify-content: end;
+        padding-right: 90px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderDesignationVA{
+        justify-content: start;
+        padding-left: 85px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderDesignationVB{
+        justify-content: end;
+        padding-right: 90px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderDesignationJP{
+        justify-content: start;
+        padding-left: 95px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderDesignationAG{
+        justify-content: end;
+        padding-right: 100px;
+    }
+}
+
+@media (min-width:992px){
+    .leaderDesignationAB{
+        justify-content: start;
+        padding-left: 65px;
+    }
+}
+
+.wrapperTopInvestor{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 96px 0;
 }
+
+.topInvestorHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.partnerColumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+    padding: 0 58px;
+}
+
+.accel{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.accel img{
+    width: 130.78px;
+    height: 140.78px;
+    opacity: 0.65;
+    margin: 0 1rem;
+
+}
+
+.harmonyPartner img{
+    padding-top: 20px;
+    width: 350px;
+    height: 100%;
+    margin: 0 30px;
+    margin-left: 18px;
+}
+
+.separator{
+    width: 1px;
+    height: 68px;
+    background: #E5E5E5;
+    margin-top: 36px;
+}
+
 
