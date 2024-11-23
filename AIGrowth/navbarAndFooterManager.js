@@ -6,7 +6,7 @@ class aiGrowthNavbar extends HTMLElement{
             <a href="/AIGrowth/homepage.html">
                 <img src="/AIGrowth/Images/ai-growth.svg">
             </a>
-            <a href="#leadership" class="ourTeamButton" style="color: white; text-decoration: none; ">
+            <a href="/AIGrowth/homepage.html#leadership" class="ourTeamButton" style="color: white; text-decoration: none; ">
                 Our Team
             </a>
         </nav>
